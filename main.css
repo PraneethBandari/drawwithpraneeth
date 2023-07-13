@@ -1,0 +1,44 @@
+body {
+    display: flex;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 110px;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+button {
+    height: 30%;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#size {
+    margin-left: 10px;
+    font-size: xx-large;
+}
+input[type="color"] {
+    margin-right: -90px;
+    margin-top:50px;
+    height: 30px;
+    width: 30px;
+    padding: 400;
+    border: 1px solid black;
+}
+.color{
+    margin-left: -100px;
+}
+.earaser_cursor{
+    cursor:cell;
+}
+.sharescreen{
+    margin-top: 100px;
+}
+
+   
